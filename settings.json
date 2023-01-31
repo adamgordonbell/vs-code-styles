@@ -1,0 +1,151 @@
+{
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "go.useLanguageServer": true,
+    "editor.rulers": [
+
+      107 
+    ],
+    "git.autofetch": true,
+    "window.zoomLevel": 5,
+    "grammarly.autoActivate" : false,
+    "grammarly.showExplanation" : true,
+    "grammarly.showExamples" : true,
+    "grammarly.diagnostics" : {
+      "[markdown]": {
+        "ignore": ["inlineCode", "code"]
+      }
+    },
+   "grammarly.severity": {
+        "Fragment": 2, // Sets Fragment category to Warning.
+        "Incorrect punctuation with quotation mark": 2 //This is causing issues with markdown formatting`run`,
+      },
+      "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+      },
+      "files.exclude": {
+        "**/.history": true,
+        "**/.jekyll-cache": true,
+        "**/.sass-cache": true
+      },
+      "gitlens.hovers.currentLine.over": "line",
+      "gitlens.codeLens.enabled": false,
+      "terminal.integrated.fontSize":12,
+      "editor.fontSize": 12,
+
+      "[markdown]":{
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 80,
+    },
+    "zigLanguageClient.path": "/Users/adam/sandbox/zls/zls",
+    "vale.core.useCLI": true,
+    "vale.server.provideFixes": false,
+    "vale.server.serverURL": "",
+    "vale.valeCLI.path": "/usr/local/bin/vale",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+      {
+        "before": ["A"],
+        "after": ["$","a"]
+      },
+      {
+          "before": ["j"],
+          "after": ["g","j"]
+      },
+      {
+          "before": ["k"],
+          "after": ["g","k"]
+      },
+      {
+          "before": ["$"],
+          // "after": ["g","$","h"]
+          "after": ["g","$"]
+      },
+      {
+          "before": ["^"],
+          "after": ["g","^"]
+      },
+      {
+        "before": ["I"],
+        "after": ["^","i"]
+      },
+    ],
+    // "vim.easymotionJumpToAnywhereRegex" : ".",
+    "vim.easymotionKeys": "hklyuiopnmqwertzxcvbasdgjf",
+    "notebook.cellToolbarLocation": {
+      "default": "right",
+      "jupyter-notebook": "left"
+    },
+    "workbench.colorCustomizations": {
+      "terminalCursor.foreground": "#00ffaa",
+      "statusBar.background": "#8FBCBB",
+      "statusBar.noFolderBackground": "#8FBCBB",
+      "statusBar.debuggingBackground": "#8FBCBB",
+      "statusBar.foreground": "#434C5E",
+      "statusBar.debuggingForeground": "#434C5E"
+    },
+    "files.watcherExclude": {
+      "**/.bloop": true,
+      "**/.metals": true,
+      "**/.ammonite": true
+    },
+    "metals.javaHome": "/Users/adam/.jabba/jdk/adopt@1.11.0-11/Contents/Home",
+    "markdownlint.config": {
+    
+    },
+    "editor.minimap.enabled": false,
+    "shellcheck.customArgs": [
+      "-x"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "stylelint.validate": [
+      "css",
+      "less",
+      "postcss",
+      "scss"
+    ],
+    "[scss]": {
+      "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "go.lintTool": "golangci-lint",
+    "editor.renderWhitespace": "all",
+    "go.gotoSymbol.ignoreFolders": [
+      ".history"
+    ],
+    "go.survey.prompt": false,
+    "editor.inlineSuggest.enabled": true,
+    "githubPullRequests.terminalLinksHandler": "github",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.startupEditor": "none",
+    "githubPullRequests.pullBranch": "never",
+    "redhat.telemetry.enabled": false,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": false,
+      "markdown": false,
+      "python": false
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.occurrencesHighlight": false,
+    "editor.selectionHighlight": false,
+   "terminal.integrated.cursorBlinking": true,
+   "vscode_custom_css.imports": ["file:///Users/adam/sandbox/vs-code-styles/styles.css"],
+   "vscode_custom_css.policy": true,
+}
