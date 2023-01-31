@@ -8,18 +8,6 @@
     ],
     "git.autofetch": true,
     "window.zoomLevel": 5,
-    "grammarly.autoActivate" : false,
-    "grammarly.showExplanation" : true,
-    "grammarly.showExamples" : true,
-    "grammarly.diagnostics" : {
-      "[markdown]": {
-        "ignore": ["inlineCode", "code"]
-      }
-    },
-   "grammarly.severity": {
-        "Fragment": 2, // Sets Fragment category to Warning.
-        "Incorrect punctuation with quotation mark": 2 //This is causing issues with markdown formatting`run`,
-      },
       "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
       },
@@ -74,7 +62,6 @@
       },
       {
           "before": ["$"],
-          // "after": ["g","$","h"]
           "after": ["g","$"]
       },
       {
@@ -86,7 +73,6 @@
         "after": ["^","i"]
       },
     ],
-    // "vim.easymotionJumpToAnywhereRegex" : ".",
     "vim.easymotionKeys": "hklyuiopnmqwertzxcvbasdgjf",
     "notebook.cellToolbarLocation": {
       "default": "right",

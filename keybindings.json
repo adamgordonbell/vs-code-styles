@@ -1,13 +1,5 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    // {
-    //     "key": "cmd+g cmd+s",
-    //     "command": "grammarly.stop"
-    // },
-    // {
-    //     "key": "cmd+g cmd+g",
-    //     "command": "grammarly.check"
-    // },
     {
         "key": "alt+cmd+t",
         "command": "editor.action.transformToTitlecase"
@@ -16,6 +8,7 @@
         "key": "cmd+w cmd+s",
         "command": "editor.action.toggleRenderWhitespace"
     },
+    //Terminal focus 
     {
         "key": "ctrl+`",
         "command": "workbench.action.terminal.focus",
